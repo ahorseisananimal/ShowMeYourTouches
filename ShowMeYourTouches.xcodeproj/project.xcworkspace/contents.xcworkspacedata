@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ShowMeYourTouch.xcodeproj">
+      location = "self:/Users/home/Projects/playgroundSwift/ShowMeYourTouch/ShowMeYourTouches.xcodeproj">
    </FileRef>
 </Workspace>

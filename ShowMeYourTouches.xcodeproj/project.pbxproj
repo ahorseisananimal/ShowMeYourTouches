@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F429F54B23967205004B919B /* ShowMeYourTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowMeYourTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F429F54B23967205004B919B /* ShowMeYourTouches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowMeYourTouches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F429F54E23967205004B919B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F429F55023967205004B919B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F429F55223967205004B919B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				F429F564239705DE004B919B /* .gitignore */,
-				F429F54D23967205004B919B /* ShowMeYourTouch */,
+				F429F54D23967205004B919B /* ShowMeYourTouches */,
 				F429F54C23967205004B919B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		F429F54C23967205004B919B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F429F54B23967205004B919B /* ShowMeYourTouch.app */,
+				F429F54B23967205004B919B /* ShowMeYourTouches.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F429F54D23967205004B919B /* ShowMeYourTouch */ = {
+		F429F54D23967205004B919B /* ShowMeYourTouches */ = {
 			isa = PBXGroup;
 			children = (
 				F429F54E23967205004B919B /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				F429F55923967206004B919B /* LaunchScreen.storyboard */,
 				F429F55C23967206004B919B /* Info.plist */,
 			);
-			path = ShowMeYourTouch;
+			path = ShowMeYourTouches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F429F54A23967205004B919B /* ShowMeYourTouch */ = {
+		F429F54A23967205004B919B /* ShowMeYourTouches */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F429F55F23967206004B919B /* Build configuration list for PBXNativeTarget "ShowMeYourTouch" */;
+			buildConfigurationList = F429F55F23967206004B919B /* Build configuration list for PBXNativeTarget "ShowMeYourTouches" */;
 			buildPhases = (
 				F429F54723967205004B919B /* Sources */,
 				F429F54823967205004B919B /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = ShowMeYourTouch;
+			name = ShowMeYourTouches;
 			productName = ShowMeYourTouch;
-			productReference = F429F54B23967205004B919B /* ShowMeYourTouch.app */;
+			productReference = F429F54B23967205004B919B /* ShowMeYourTouches.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F429F54623967204004B919B /* Build configuration list for PBXProject "ShowMeYourTouch" */;
+			buildConfigurationList = F429F54623967204004B919B /* Build configuration list for PBXProject "ShowMeYourTouches" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F429F54A23967205004B919B /* ShowMeYourTouch */,
+				F429F54A23967205004B919B /* ShowMeYourTouches */,
 			);
 		};
 /* End PBXProject section */
@@ -294,13 +294,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYN66JXJZK;
-				INFOPLIST_FILE = ShowMeYourTouch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShowMeYourTouches/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiadolgushina.ShowMeYourTouch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiadolgushina.ShowMeYourTouches;
+				PRODUCT_NAME = ShowMeYourTouches;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,13 +312,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MYN66JXJZK;
-				INFOPLIST_FILE = ShowMeYourTouch/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ShowMeYourTouches/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiadolgushina.ShowMeYourTouch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anastasiadolgushina.ShowMeYourTouches;
+				PRODUCT_NAME = ShowMeYourTouches;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F429F54623967204004B919B /* Build configuration list for PBXProject "ShowMeYourTouch" */ = {
+		F429F54623967204004B919B /* Build configuration list for PBXProject "ShowMeYourTouches" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F429F55D23967206004B919B /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F429F55F23967206004B919B /* Build configuration list for PBXNativeTarget "ShowMeYourTouch" */ = {
+		F429F55F23967206004B919B /* Build configuration list for PBXNativeTarget "ShowMeYourTouches" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F429F56023967206004B919B /* Debug */,
